@@ -1,0 +1,17 @@
+INSERT INTO cliente (nombre,apellido,dni)
+VALUES (kevin,ayala,43011615)
+VALUES (Michel,Nostradamus,25135)
+VALUES (Nicolas,Tesla,236987)
+VALUES (Daemon,Spade,345698)
+
+INSERT INTO producto (marca,serial_number,cantidad,precio)
+VALUES (Logitech,LZ547BJ,5,1000)
+VALUES (Geforce,MT2217FT01239,2,8000)
+VALUES (Asus,M2N0CV10L873083,65,9000)
+VALUES (Corsair,NZ5207,10,54)
+
+INSERT INTO recibo (fecha,cantidad,total,cliente_id,producto_id)
+VALUE (2000-12-30,2,2000)
+VALUE (20-5-3,1,8000)
+VALUE (2027-07-27,4,36000)
+VALUE (2001-9-11,2,108)
